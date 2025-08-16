@@ -1,0 +1,13 @@
+pub const VAULT_SEED: &[u8] = b"vault";
+pub const USER_ACCOUNT_SEED: &[u8] = b"user_account";
+pub const PROTOCOL_ADAPTER_SEED: &[u8] = b"protocol_adapter";
+pub const VAULT_SHARES_SEED: &[u8] = b"vault_shares";
+pub const VAULT_AUTHORITY_SEED: &[u8] = b"vault_authority";
+pub const MAX_PROTOCOL_ADAPTERS: usize = 10;
+pub const MAX_REBALANCING_PERCENTAGE: u8 = 40;
+pub const BASIS_POINTS: u16 = 10000;
+pub const MAX_MANAGEMENT_FEE: u16 = 200;
+pub const MAX_PERFORMANCE_FEE: u16 = 2000;
+pub const MINIMUM_LIQUIDITY_THRESHOLD: u64 = 1000;
+pub const REBALANCING_COOLDOWN: i64 = 3600;
+pub const USDC_DECIMALS: u8 = 6;
